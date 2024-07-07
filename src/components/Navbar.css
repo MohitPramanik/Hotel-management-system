@@ -14,10 +14,22 @@ nav {
     padding: 34px;
 }
 
+.logo-box {
+    height: 52px;
+    border-radius: 11px;
+    overflow: hidden;
+}
+
+.logo-box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
 nav ul {
     display: flex;
     justify-content: center;
-    gap: 200px;
+    gap: 8vw;
 }
 
 nav ul li {
@@ -50,10 +62,6 @@ nav a {
 }
 
 @media (max-width: 966px) {
-    nav ul {
-        gap: 100px;
-    }
-
     nav a {
         font-size: 22px;
     }
@@ -61,12 +69,10 @@ nav a {
 
 @media (max-width: 700px) {
     nav ul {
-        gap: 80px;
+        gap: 4vw;
     }
 
     nav a {
         font-size: 20px;
     }
 }
-
-@media (max-width: 600px) {}

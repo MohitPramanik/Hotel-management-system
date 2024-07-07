@@ -1,0 +1,16 @@
+#offers h2 {
+    background-color: #ff1a1a;
+    font-size: 45px;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.offers-card-area {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px 0;
+    background: #d16fff6b;
+}

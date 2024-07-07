@@ -1,0 +1,21 @@
+#about {
+    text-align: center;
+    padding: 20px 40px;
+    background: #28678e4f;
+}
+
+#about h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#about p {
+    font-size: 20px;
+    line-height: 27px;
+}
+
+#about p:last-child {
+    margin-top: 20px;
+}

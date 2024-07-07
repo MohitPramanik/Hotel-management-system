@@ -1,0 +1,32 @@
+footer {
+    display: flex;
+    background: #111a3c;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 40px 0;
+}
+
+.footer-part {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    max-width: 25%;
+}
+
+.social-media-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 26px;
+    margin-top: 15px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.rest-links {
+    list-style: none;
+}

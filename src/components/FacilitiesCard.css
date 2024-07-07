@@ -1,0 +1,37 @@
+.facilities-card {
+    display: flex;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 95%;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.facilities-card img {
+    width: 500px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 41px;
+    gap: 15px;
+}
+
+.content h3 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.content p {
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.facilities-card:nth-child(odd) {
+    flex-direction: row-reverse;
+}

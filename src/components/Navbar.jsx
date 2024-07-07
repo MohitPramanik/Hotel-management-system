@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 import dummyProfile from "../assets/Navbar/dummyProfile.webp";
+import hotelLogo from "../assets/Navbar/hotelLogo.png";
 
 function Navbar() {
     const menu = [
@@ -22,7 +23,9 @@ function Navbar() {
     return (
         <header>
             <nav>
-                <span>Hotel Logo</span>
+                <span className="logo-box">
+                    <img src={hotelLogo} alt="" />
+                </span>
 
                 <ul>
                     {menu.map((menuItem) => (
