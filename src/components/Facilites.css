@@ -1,8 +1,20 @@
 #facilities h2 {
     text-align: center;
-    background: blue;
+    background: #4229ff;
     color: white;
     font-size: 50px;
     padding: 20px;
     font-weight: bold;
+}
+
+@media (max-width: 966px) {
+    #facilities h2 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 712px) {
+    #facilities h2 {
+        font-size: 35px;
+    }
 }

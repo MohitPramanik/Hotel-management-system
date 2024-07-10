@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 import dummyProfile from "../assets/Navbar/dummyProfile.webp";
 import hotelLogo from "../assets/Navbar/hotelLogo.png";
+import { Divide as Hamburger } from "hamburger-react";
 
 function Navbar() {
     const menu = [
@@ -41,6 +42,10 @@ function Navbar() {
                     <NavLink to={"profile"}>
                         <img src={dummyProfile} alt="" />
                     </NavLink>
+                </button>
+
+                <button className="hamburger">
+                    <Hamburger />
                 </button>
             </nav>
         </header>

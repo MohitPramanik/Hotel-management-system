@@ -1,0 +1,48 @@
+#rooms {
+    display: flex;
+}
+
+.filter-toggle {
+    position: fixed;
+    bottom: 24px;
+    right: 41px;
+    font-size: 37px;
+    padding: 20px;
+    border-radius: 50px;
+    height: 75px;
+    width: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border: 1px solid grey;
+    cursor: pointer;
+    transition: all ease-in-out 0.1s;
+}
+
+.blue {
+    color: blue;
+}
+
+.move-up-btn {
+    position: absolute;
+    bottom: 24px;
+    right: 41px;
+    height: 48px;
+    width: 48px;
+    font-size: 40px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #535353;
+    background: white;
+    padding: 13px;
+    box-sizing: content-box;
+    scale: 0;
+    transition: all ease-in-out 0.2s;
+}
+
+.show-up-btn {
+    scale: 1;
+}

@@ -1,7 +1,14 @@
 import React from "react";
+import BookSectionCard from "../components/BookSectionCard";
 
 function Booking() {
-    return <div>booking</div>;
+    return (
+        <>
+            <section>
+                <BookSectionCard />
+            </section>
+        </>
+    );
 }
 
 export default Booking;

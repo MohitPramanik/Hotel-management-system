@@ -1,3 +1,8 @@
+#offers {
+    width: 100vw;
+    overflow: hidden;
+}
+
 #offers h2 {
     background-color: #ff1a1a;
     font-size: 45px;
@@ -11,6 +16,30 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 50px 0;
-    background: #d16fff6b;
+    overflow: scroll;
+    padding: 50px;
+    background: #4363ff70;
+    cursor: -webkit-grab;
+}
+
+.offers-card-area:active {
+    cursor: -webkit-grabbing;
+}
+
+@media (max-width: 1290px) {
+    .offers-card-area {
+        gap: 47px;
+    }
+}
+
+@media (max-width: 966px) {
+    #offers h2 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 712px) {
+    #offers h2 {
+        font-size: 35px;
+    }
 }

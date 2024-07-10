@@ -1,17 +1,19 @@
 .facilities-card {
     display: flex;
     height: 500px;
-    border: 2px solid black;
     border-radius: 20px;
-    width: 95%;
-    margin: 20px auto;
+    width: 98%;
+    margin: 15px auto;
     overflow: hidden;
+    box-shadow: 0px 1px 8px -1px black;
+    background-color: #9100ff17;
 }
 
 .facilities-card img {
     width: 500px;
     height: 100%;
     object-fit: cover;
+    border-radius: 15px;
 }
 
 .content {

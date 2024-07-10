@@ -4,6 +4,9 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 20;
+    position: sticky;
+    top: 0;
 }
 
 nav {
@@ -61,18 +64,25 @@ nav a {
     top: 5px;
 }
 
+.hamburger {
+    display: none;
+}
+
 @media (max-width: 966px) {
     nav a {
         font-size: 22px;
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 712px) {
     nav ul {
-        gap: 4vw;
-    }
-
-    nav a {
-        font-size: 20px;
+        position: absolute;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        left: 0;
+        top: 0;
+        z-index: 3;
+        background: #5d44c3;
     }
 }
